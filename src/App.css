@@ -8,6 +8,7 @@
   border-radius: 100%;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 15s linear;
@@ -15,7 +16,8 @@
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-image: url(./img/circle.png);
+  background-color: #010101;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,21 +41,44 @@
 }
 
 .Text {
-  color: #000;
+  background-image: url(./img/circle.png);
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  font: small-caps bold 24px/1 sans-serif;
+  font: small-caps bold 26px/1 sans-serif;
   font-size: 2.0em
 }
 
 
-.linkS {
-    position: relative;
-      float: centre;
-      width: 60px;
-      height: 60px;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
+.social-container {
+  background-color: #010101;
+  padding: 25px 50px;
+  position: sticky;
+    top: 1160px;
+}
 
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.github {
+  color: rgb(255, 255, 255);
+}
+
+a.telegram {
+  color: rgb(255, 255, 255);
+}
+
+a.twitter {
+  color: rgb(255, 255, 255);
+}
+
+a.discord {
+  color: rgb(255, 255, 255);
 }
 

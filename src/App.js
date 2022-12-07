@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Background from './background.png'
+import SocialFollow from "./SocialFollow"
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header" style={{
-        background: `url(${Background}) `,
-      }}>
+      <header className="App-header">
+        <h1>Doma🏠Nodes</h1>
         <img src={logo} className="App-logo" alt="logo" style={{
-          backgroundColor: 'white',
+          backgroundColor: 'white'
         }} />
-        <p className="Text" style={{
-          backgroundColor: 'white',
-        }}>
+        <p className="Text">     
           Web3, to be continued....
         </p>
       </header>
+      <SocialFollow />
     </div>
   );
 }
